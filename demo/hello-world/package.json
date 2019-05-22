@@ -1,0 +1,27 @@
+{
+  "name": "koa2-demo",
+  "version": "1.0.0",
+  "description": "koa2-demo-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lovekyrie/koa2-project.git"
+  },
+  "keywords": [
+    "koa2",
+    "demo",
+    "test"
+  ],
+  "author": "fengdurant@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovekyrie/koa2-project/issues"
+  },
+  "homepage": "https://github.com/lovekyrie/koa2-project#readme",
+  "devDependencies": {
+    "koa": "^2.7.0"
+  }
+}
