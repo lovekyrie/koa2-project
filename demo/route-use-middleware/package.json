@@ -1,0 +1,15 @@
+{
+  "name": "route-use-middleware",
+  "version": "1.0.0",
+  "description": "koa2 route with koa-router plugin",
+  "main": "quick.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "koajs",
+    "demo"
+  ],
+  "author": "fengdurant@gmail.com",
+  "license": "MIT"
+}

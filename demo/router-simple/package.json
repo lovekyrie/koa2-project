@@ -14,5 +14,8 @@
   "engines": {
     "node": ">=7.6.0",
     "npm": ">=3.0.0"
+  },
+  "devDependencies": {
+    "koa": "^2.7.0"
   }
 }
