@@ -1,19 +1,18 @@
 {
-  "name": "route-use-middleware",
+  "name": "request",
   "version": "1.0.0",
-  "description": "koa2 route with koa-router plugin",
-  "main": "quick.js",
+  "description": "koa request demo",
+  "main": "get.js",
   "scripts": {
     "test": "node index.js"
   },
   "keywords": [
-    "koajs",
-    "demo"
+    "koajs"
   ],
   "author": "fengdurant@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "koa": "^2.7.0",
-    "koa-router": "^7.4.0"
+    "koa-bodyparser": "^4.2.1"
   }
 }

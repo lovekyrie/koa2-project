@@ -1,0 +1,14 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "static server demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "fengdurant@gmail.com",
+  "license": "MIT"
+}
