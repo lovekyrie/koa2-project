@@ -1,0 +1,17 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "koa cookie storage demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "fengdurant@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.7.0"
+  }
+}
