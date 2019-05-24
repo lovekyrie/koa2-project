@@ -1,7 +1,7 @@
 {
-  "name": "static-server",
+  "name": "static-use-middleware",
   "version": "1.0.0",
-  "description": "static server demo",
+  "description": "koa2 use static-middleware to load resource",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -12,6 +12,7 @@
   "author": "fengdurant@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "koa-static": "^3.0.0"
   }
 }
