@@ -1,0 +1,14 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "description": "brower store sessionID by cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "fengdurant@gmail.com",
+  "license": "MIT"
+}
