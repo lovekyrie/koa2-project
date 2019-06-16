@@ -4,7 +4,8 @@
   "description": "webpack example",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "dev": "node dev-server.js"
   },
   "keywords": [
     "webpackjs"
@@ -16,9 +17,18 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "koa": "^2.7.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
     "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-hot-middleware": "^2.25.0"
   }
 }
