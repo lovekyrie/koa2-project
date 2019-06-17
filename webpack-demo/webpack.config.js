@@ -1,13 +1,12 @@
 const path = require("path");
 const webpack = require("webpack");
-const MyPlugin = require("./src/myPlugin.js");
 
 module.exports = {
   mode: "development",
-  entry: ["webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000", "./src/index.js", "./src/search.js"],
+  entry: ["webpack-hot-middleware/client?path=/__webpack_hmr&reload=true", "./src/search.js"],
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "[name].js",
+    filename: "search.js",
     publicPath: "/"
   },
   module: {

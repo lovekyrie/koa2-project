@@ -6,7 +6,7 @@ import './search.less'
 class Search extends React.Component {
 
   render() {
-    return <div className="search-text"> 搜索文字的内容
+    return <div className="search-text"> 搜索文字的内容123
       <img src={logo} />
     </div>
   }
